@@ -21,7 +21,8 @@ public class HomeEnquiryFormTest extends BasePage  {
     @Parameters({"firstName", "lastName"})
     public void fillForm(String firstName, String lastName) throws Exception{
 
-       aboutYouSteps.enterAboutDetails("Miss",firstName,lastName, "12","March","2005", "Single");
+       aboutYouSteps.enterAboutDetails("Dr",firstName,lastName, "12","March","2005",
+               "Married","Computer System", "07967898765", "bidonije@yahoo.com" );
 
     }
 

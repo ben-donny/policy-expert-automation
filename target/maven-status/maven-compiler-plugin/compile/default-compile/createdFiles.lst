@@ -1,0 +1,11 @@
+uk/co/policyexpert/component/AboutCoverYouWantComponent.class
+uk/co/policyexpert/component/AboutSafetyAndSecurityComponent.class
+uk/co/policyexpert/steps/AboutYouSteps.class
+uk/co/policyexpert/component/AboutInsuranceHistoryComponent.class
+uk/co/policyexpert/TItle.class
+uk/co/policyexpert/component/AboutYouComponent.class
+uk/co/policyexpert/MaritalStatus.class
+uk/co/policyexpert/interaction/AboutYouInteraction.class
+uk/co/policyexpert/BasePage.class
+uk/co/policyexpert/component/AboutPropertyComponent.class
+uk/co/policyexpert/component/AboutJointPolicyComponent.class

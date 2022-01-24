@@ -44,8 +44,7 @@ public class BasePage {
         }
     }
 
-    public static String getPageTitle(){
-
+    public String getPageTitle(){
         String title = driver.getTitle();
         return title;
     }
@@ -55,12 +54,12 @@ public class BasePage {
         Reporter.log(msg);
     }
 
-    public static void closeDriver(){
+    public void closeDriver(){
         driver.close();
         log("Driver closed");
     }
 
-    public static void clickOncompareQuotes(){
+    public void clickOncompareQuotes(){
         driver.findElement(By.cssSelector("[data-testid='submit']")).click();
     }
 

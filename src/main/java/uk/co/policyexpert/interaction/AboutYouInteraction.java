@@ -103,4 +103,29 @@ public class AboutYouInteraction extends BasePage {
                 Assert.fail(NO_MARITAL_STATUS_PROVIDED_ERROR);
         }
     }
+
+    public void enterOccupation(String occupation) {
+        aboutYouComponent.getOccupationField().clear();
+        aboutYouComponent.getOccupationField().sendKeys(occupation);
+    }
+
+    public void clickOnAnotherOccupationYesButton() {
+        aboutYouComponent.getAnotherOccupationYesButton().click();
+
+    }
+
+    public void clickOnAnotherOccupationNoButton() {
+        aboutYouComponent.getAnotherOccupationNoButton().click();
+
+    }
+
+    public void enterMainPhoneNumber(String phoneNumber) {
+        aboutYouComponent.getMainPhoneNumberField().clear();
+        aboutYouComponent.getMainPhoneNumberField().sendKeys(phoneNumber);
+    }
+
+    public void enterEmailAddress(String email) {
+        aboutYouComponent.getEmailAddressField().clear();
+        aboutYouComponent.getEmailAddressField().sendKeys(email);
+    }
 }

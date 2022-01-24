@@ -12,7 +12,7 @@
         </classes>
     </test>
 
-      <test name="Home insurance enquiry form running on chrome browser">
+      <test name="Home insurance enquiry form running on firefox browser">
             <parameter name="BROWSER" value="firefox"/>
             <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
             <parameter name="firstName" value="doni"/>

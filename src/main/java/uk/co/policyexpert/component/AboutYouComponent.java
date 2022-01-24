@@ -11,7 +11,6 @@ public class AboutYouComponent extends BasePage {
     }
 
     @FindBy(xpath="//div[@class='panel-body']/div[1]//select[@class='form-control']")
-    //public static WebElement SELECT_TITLE_FIELD;
     public WebElement selectTitleField;
 
     @FindBy(xpath="//div[@class='panel-body']/div[2]//input")
@@ -46,7 +45,7 @@ public class AboutYouComponent extends BasePage {
     private WebElement anotherOccupationField;
 
     @FindBy(xpath="//div[@class='panel-body']/div[8]//input")
-    private WebElement mobilePhoneNumberField;
+    private WebElement mainPhoneNumberField;
 
     @FindBy(xpath="//div[@class='panel-body']/div[9]//input")
     private WebElement emailAddressField;
@@ -87,8 +86,8 @@ public class AboutYouComponent extends BasePage {
         return anotherOccupationYesButton;
     }
 
-    public WebElement getMobilePhoneNumberField() {
-        return mobilePhoneNumberField;
+    public WebElement getMainPhoneNumberField() {
+        return mainPhoneNumberField;
     }
 
     public WebElement getEmailAddressField() {

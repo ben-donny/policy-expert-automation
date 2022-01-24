@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.624 s <<< FAILURE! - in TestSuite
+fillForm(uk.co.policyexpert.HomeEnquiryFormTest)  Time elapsed: 5.395 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with text: March
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'C02XD5ANJG5J', ip: '192.168.0.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.1'
+Driver info: driver.version: unknown
+	at uk.co.policyexpert.HomeEnquiryFormTest.fillForm(HomeEnquiryFormTest.java:24)
+
+fillForm(uk.co.policyexpert.HomeEnquiryFormTest)  Time elapsed: 1.184 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate option with text: March
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'C02XD5ANJG5J', ip: '192.168.0.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '17.0.1'
+Driver info: driver.version: unknown
+	at uk.co.policyexpert.HomeEnquiryFormTest.fillForm(HomeEnquiryFormTest.java:24)
+

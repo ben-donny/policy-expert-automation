@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Test suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Hudl login running on chrome browser(failed)" verbose="0">
+    <parameter name="firstName" value="doni"/>
+    <parameter name="lastName" value="Jonah"/>
+    <parameter name="BROWSER" value="chrome"/>
+    <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
+    <classes>
+      <class name="uk.co.policyexpert.HomeEnquiryFormTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitDrver"/>
+          <include name="fillForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
+    </classes>
+  </test> <!-- Hudl login running on chrome browser(failed) -->
+  <test thread-count="5" name="Hudl login running on firefox browser(failed)" verbose="0">
+    <parameter name="firstName" value="doni"/>
+    <parameter name="lastName" value="Jonah"/>
+    <parameter name="BROWSER" value="firefox"/>
+    <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
+    <classes>
+      <class name="uk.co.policyexpert.HomeEnquiryFormTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitDrver"/>
+          <include name="fillForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
+    </classes>
+  </test> <!-- Hudl login running on firefox browser(failed) -->
+</suite> <!-- Failed suite [Login Test suite] -->
