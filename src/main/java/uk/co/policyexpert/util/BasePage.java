@@ -19,8 +19,8 @@ public class BasePage {
         switch (browserType){
             case "chrome":
                 log("Test starts running in google chrome browser.");
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") +
-                        "/git/policy-expert-project/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
+                log(System.getProperty("user.dir"));
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.get(url);
@@ -28,8 +28,7 @@ public class BasePage {
 
             case "firefox":
                 log("Test starts running in firefox browser.");
-                System.setProperty("webdriver.gecko.driver",System.getProperty("user.home") +
-                        "/git/policy-expert-project/geckodriver");
+                System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "/geckodriver");
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
                 driver.get(url);
@@ -37,8 +36,7 @@ public class BasePage {
 
             case "edge":
                 log("Test starts running in microsoft edge.");
-                System.setProperty("webdriver.edge.driver",System.getProperty("user.home") +
-                        "/git/policy-expert-project/msedgedriver");
+                System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "/msedgedriver");
                 driver = new EdgeDriver();
                 driver.manage().window().maximize();
                 driver.get(url);
@@ -80,7 +78,7 @@ public class BasePage {
         log("Driver closed");
     }
 
-    public void clickOncompareQuotes(){
+    public void clickOnCompareQuotes(){
         driver.findElement(By.cssSelector("[data-testid='submit']")).click();
     }
 
