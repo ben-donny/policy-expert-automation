@@ -22,4 +22,14 @@
             </classes>
       </test>
 
+    <test name="Home insurance enquiry form running microsoft edge browser">
+        <parameter name="BROWSER" value="edge"/>
+        <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
+        <parameter name="firstName" value="doni"/>
+        <parameter name="lastName" value="Jonah"/>
+        <classes>
+            <class name="uk.co.policyexpert.HomeEnquiryFormTest" />
+        </classes>
+    </test>
+
     </suite>

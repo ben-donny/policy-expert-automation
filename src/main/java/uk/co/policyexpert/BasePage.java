@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Reporter;
@@ -13,22 +14,39 @@ public class BasePage {
 
     public static WebDriver driver;
 
-    public static void createDriver(String browserName, String url) throws Exception{
+    public static void createDriver(String browserType, String url) throws Exception{
 
-        if (browserName.equalsIgnoreCase("chrome")){
-            log("Test starts Running in Google chrome browser.");
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "/git/policy-expert-project/chromedriver");
-            driver = new ChromeDriver();
-            driver.manage().window().maximize();
-            driver.get(url);
+        switch (browserType){
+            case "chrome":
+                log("Test starts running in google chrome browser.");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "/git/policy-expert-project/chromedriver");
+                driver = new ChromeDriver();
+                driver.manage().window().maximize();
+                driver.get(url);
+                break;
 
-        }else if (browserName.equalsIgnoreCase("firefox")){
-            log("Test starts Running In Firefox browser.");
-            System.setProperty("webdriver.gecko.driver",System.getProperty("user.home") + "/git/policy-expert-project/geckodriver");
-            driver = new FirefoxDriver();
-            driver.manage().window().maximize();
-            driver.get(url);
+            case "firefox":
+                log("Test starts running in firefox browser.");
+                System.setProperty("webdriver.gecko.driver",System.getProperty("user.home") + "/git/policy-expert-project/geckodriver");
+                driver = new FirefoxDriver();
+                driver.manage().window().maximize();
+                driver.get(url);
+                break;
+
+            case "edge":
+                log("Test starts running in microsoft edge.");
+                System.setProperty("webdriver.edge.driver",System.getProperty("user.home") + "/git/policy-expert-project/msedgedriver");
+                driver = new EdgeDriver();
+                driver.manage().window().maximize();
+                driver.get(url);
+                break;
+            default:
+                log("browser : " + browserType + " is invalid, launching chrome as browser of choice..");
+                driver = new ChromeDriver();
+                driver.manage().window().maximize();
+                driver.get(url);
         }
+
     }
 
     /*
