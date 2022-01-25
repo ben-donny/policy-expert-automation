@@ -20,7 +20,7 @@ public class HomeEnquiryFormTest extends BasePage {
 
     @BeforeClass
     @Parameters({"BROWSER", "SITEURL"})
-    public void setUp(String BROWSER, String SITEURL) throws Exception{
+    public void setUp(String BROWSER, String SITEURL){
         createDriver(BROWSER, SITEURL);
         aboutYouSteps = new AboutYouSteps();
         aboutYouAndOtherResidentsSteps = new AboutYouAndOtherResidentsSteps();

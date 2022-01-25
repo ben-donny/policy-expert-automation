@@ -1,4 +1,6 @@
 package uk.co.policyexpert.steps;
 
-public class AboutSafetyAndSecuritySteps {
+import uk.co.policyexpert.util.BasePage;
+
+public class AboutSafetyAndSecuritySteps extends BasePage {
 }

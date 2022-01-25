@@ -12,9 +12,9 @@ import org.testng.Reporter;
 
 public class BasePage {
 
-    protected static WebDriver driver;
+    public static WebDriver driver;
 
-    public void createDriver(String browserType, String url) throws Exception{
+    public void createDriver(String browserType, String url){
 
         switch (browserType){
             case "chrome":

@@ -1,4 +1,6 @@
 package uk.co.policyexpert.steps;
 
-public class QuestionsAboutYourPropertySteps {
+import uk.co.policyexpert.util.BasePage;
+
+public class QuestionsAboutYourPropertySteps extends BasePage {
 }
