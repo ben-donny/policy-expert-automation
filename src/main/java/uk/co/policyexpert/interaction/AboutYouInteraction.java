@@ -2,8 +2,8 @@ package uk.co.policyexpert.interaction;
 
 import org.testng.Assert;
 import uk.co.policyexpert.util.BasePage;
-import uk.co.policyexpert.steps.MaritalStatus;
-import uk.co.policyexpert.steps.TItle;
+import uk.co.policyexpert.enums.MaritalStatus;
+import uk.co.policyexpert.enums.TItle;
 import uk.co.policyexpert.component.AboutYouComponent;
 
 public class AboutYouInteraction extends BasePage {

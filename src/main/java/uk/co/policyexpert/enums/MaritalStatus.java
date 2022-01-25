@@ -1,4 +1,4 @@
-package uk.co.policyexpert.steps;
+package uk.co.policyexpert.enums;
 
 public enum MaritalStatus {
 
