@@ -41,8 +41,6 @@ public class HomeEnquiryFormTest extends BasePage {
        aboutYouAndOtherResidentsSteps.bankruptcyNoButton();
        aboutYourPropertySteps.addPropertyAddress(homeAddress);
 
-
-
     }
 
     private void verifyAboutYouText(String expectedText){

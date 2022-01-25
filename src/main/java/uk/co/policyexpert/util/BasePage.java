@@ -14,7 +14,7 @@ public class BasePage {
 
     public static WebDriver driver;
 
-    public static void createDriver(String browserType, String url) throws Exception{
+    public void createDriver(String browserType, String url) throws Exception{
 
         switch (browserType){
             case "chrome":
