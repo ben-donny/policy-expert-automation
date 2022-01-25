@@ -1,6 +1,6 @@
 package uk.co.policyexpert.steps;
 
-import uk.co.policyexpert.interaction.AboutInsuranceHistoryInteraction;
+import uk.co.policyexpert.homeenquiryform.pageinteraction.AboutInsuranceHistoryInteraction;
 
 public class AboutInsuranceHistorySteps {
     private AboutInsuranceHistoryInteraction aboutInsuranceHistoryInteraction;

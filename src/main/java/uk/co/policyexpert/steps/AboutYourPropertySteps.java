@@ -1,6 +1,6 @@
 package uk.co.policyexpert.steps;
 
-import uk.co.policyexpert.interaction.AboutYourPropertyInteraction;
+import uk.co.policyexpert.homeenquiryform.pageinteraction.AboutYourPropertyInteraction;
 
 public class AboutYourPropertySteps {
     private AboutYourPropertyInteraction aboutYourPropertyInteraction;

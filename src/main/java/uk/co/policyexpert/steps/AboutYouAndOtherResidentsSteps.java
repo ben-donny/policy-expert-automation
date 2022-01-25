@@ -1,6 +1,6 @@
 package uk.co.policyexpert.steps;
 
-import uk.co.policyexpert.interaction.AboutYouAndOtherResidentsInteraction;
+import uk.co.policyexpert.homeenquiryform.pageinteraction.AboutYouAndOtherResidentsInteraction;
 
 public class AboutYouAndOtherResidentsSteps {
     private AboutYouAndOtherResidentsInteraction aboutYouAndOtherResidentsInteraction;

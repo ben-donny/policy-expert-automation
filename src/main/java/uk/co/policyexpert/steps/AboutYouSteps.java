@@ -1,8 +1,8 @@
 package uk.co.policyexpert.steps;
 
 import uk.co.policyexpert.util.BasePage;
-import uk.co.policyexpert.interaction.AboutYouAndOtherResidentsInteraction;
-import uk.co.policyexpert.interaction.AboutYouInteraction;
+import uk.co.policyexpert.homeenquiryform.pageinteraction.AboutYouAndOtherResidentsInteraction;
+import uk.co.policyexpert.homeenquiryform.pageinteraction.AboutYouInteraction;
 
 
 public class AboutYouSteps extends BasePage {
