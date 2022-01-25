@@ -12,7 +12,7 @@ import org.testng.Reporter;
 
 public class BasePage {
 
-    public static WebDriver driver;
+    protected static WebDriver driver;
 
     public void createDriver(String browserType, String url) throws Exception{
 
