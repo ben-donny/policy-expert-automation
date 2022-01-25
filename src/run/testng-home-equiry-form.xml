@@ -5,8 +5,17 @@
     <test name="Home insurance enquiry form running on chrome browser">
         <parameter name="BROWSER" value="chrome"/>
         <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
-        <parameter name="firstName" value="doni"/>
+        <parameter name="title" value="Dr"/>
+        <parameter name="firstName" value="Doni"/>
         <parameter name="lastName" value="Jonah"/>
+        <parameter name="day" value="14"/>
+        <parameter name="month" value="October"/>
+        <parameter name="year" value="1980"/>
+        <parameter name="maritalStatus" value="Married"/>
+        <parameter name="occupation" value="Software Engineer"/>
+        <parameter name="phoneNumber" value="07949409678"/>
+        <parameter name="email" value="doni.jonah202@mailinator.com"/>
+        <parameter name="homeAddress" value="42 Marlborough Buildings Hatfield Road St. Albans AL1 3RW"/>
         <classes>
           <class name="uk.co.policyexpert.HomeEnquiryFormTest" />
         </classes>
@@ -15,8 +24,17 @@
       <test name="Home insurance enquiry form running on firefox browser">
             <parameter name="BROWSER" value="firefox"/>
             <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
-            <parameter name="firstName" value="doni"/>
-            <parameter name="lastName" value="Jonah"/>
+          <parameter name="title" value="Mr"/>
+          <parameter name="firstName" value="Peter"/>
+          <parameter name="lastName" value="Morgan"/>
+          <parameter name="day" value="11"/>
+          <parameter name="month" value="March"/>
+          <parameter name="year" value="1985"/>
+          <parameter name="maritalStatus" value="Single"/>
+          <parameter name="occupation" value="Project Manager"/>
+          <parameter name="phoneNumber" value="07949409678"/>
+          <parameter name="email" value="peter.morgan909@mailinator.com"/>
+          <parameter name="homeAddress" value="18 Cleveland Road Bournemouth BH1 4QD"/>
             <classes>
                 <class name="uk.co.policyexpert.HomeEnquiryFormTest" />
             </classes>
@@ -25,8 +43,17 @@
     <test name="Home insurance enquiry form running microsoft edge browser">
         <parameter name="BROWSER" value="edge"/>
         <parameter name="SITEURL" value="https://insurance.policyexpert.co.uk/home"/>
-        <parameter name="firstName" value="doni"/>
-        <parameter name="lastName" value="Jonah"/>
+        <parameter name="title" value="Miss"/>
+        <parameter name="firstName" value="Jon"/>
+        <parameter name="lastName" value="Francis"/>
+        <parameter name="day" value="2"/>
+        <parameter name="month" value="February"/>
+        <parameter name="year" value="1970"/>
+        <parameter name="maritalStatus" value="Divorced"/>
+        <parameter name="occupation" value="Property Developer"/>
+        <parameter name="phoneNumber" value="07949409678"/>
+        <parameter name="email" value="jon.francis709@mailinator.com"/>
+        <parameter name="homeAddress" value="16 Cleveland Road Bradford BD9 4PB"/>
         <classes>
             <class name="uk.co.policyexpert.HomeEnquiryFormTest" />
         </classes>

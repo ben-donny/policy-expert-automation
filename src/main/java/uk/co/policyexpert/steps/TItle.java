@@ -1,4 +1,4 @@
-package uk.co.policyexpert;
+package uk.co.policyexpert.steps;
 
 public enum TItle {
     MR("Mr"),

@@ -3,12 +3,15 @@ package uk.co.policyexpert.component;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import uk.co.policyexpert.BasePage;
+import uk.co.policyexpert.util.BasePage;
 
 public class AboutYouComponent extends BasePage {
     public AboutYouComponent() {
         PageFactory.initElements(driver, this);
     }
+
+    @FindBy(css="div > div:nth-child(1) > div.panel-heading")
+    private WebElement aboutYouText;
 
     @FindBy(xpath="//div[@class='panel-body']/div[1]//select[@class='form-control']")
     public WebElement selectTitleField;
@@ -18,7 +21,6 @@ public class AboutYouComponent extends BasePage {
 
     @FindBy(xpath="//div[@class='panel-body']/div[3]//input")
     private WebElement lastNameField;
-
 
     @FindBy(xpath="//div[@class='row']/div[1]/select[@class='form-control']")
     private WebElement birthDayField;
@@ -100,5 +102,9 @@ public class AboutYouComponent extends BasePage {
 
     public WebElement getAnotherOccupationField() {
         return anotherOccupationField;
+    }
+
+    public WebElement getAboutYouText() {
+        return aboutYouText;
     }
 }

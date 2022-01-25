@@ -1,9 +1,9 @@
 package uk.co.policyexpert.interaction;
 
 import org.testng.Assert;
-import uk.co.policyexpert.BasePage;
-import uk.co.policyexpert.MaritalStatus;
-import uk.co.policyexpert.TItle;
+import uk.co.policyexpert.util.BasePage;
+import uk.co.policyexpert.steps.MaritalStatus;
+import uk.co.policyexpert.steps.TItle;
 import uk.co.policyexpert.component.AboutYouComponent;
 
 public class AboutYouInteraction extends BasePage {
@@ -14,7 +14,7 @@ public class AboutYouInteraction extends BasePage {
     private AboutYouComponent aboutYouComponent;
 
     public AboutYouInteraction() {
-        this.aboutYouComponent = new AboutYouComponent();
+        aboutYouComponent = new AboutYouComponent();
     }
 
     public void selectTitle(String title){
@@ -127,5 +127,10 @@ public class AboutYouInteraction extends BasePage {
     public void enterEmailAddress(String email) {
         aboutYouComponent.getEmailAddressField().clear();
         aboutYouComponent.getEmailAddressField().sendKeys(email);
+    }
+
+    public String aboutYouText() {
+       return aboutYouComponent.getAboutYouText().getText();
+
     }
 }

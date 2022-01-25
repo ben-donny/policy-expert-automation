@@ -1,6 +1,6 @@
 package uk.co.policyexpert.steps;
 
-import uk.co.policyexpert.BasePage;
+import uk.co.policyexpert.util.BasePage;
 import uk.co.policyexpert.interaction.AboutYouAndOtherResidentsInteraction;
 import uk.co.policyexpert.interaction.AboutYouInteraction;
 
@@ -16,8 +16,8 @@ private AboutYouAndOtherResidentsInteraction aboutYouAndOtherResidentsInteractio
         this.aboutYouAndOtherResidentsInteraction = new AboutYouAndOtherResidentsInteraction();
     }
 
-    public void enterAboutDetails(String title, String firstName, String lastName, String day, String month,
-                                  String year, String maritalStatus, String occupation, String phone, String email){
+    public void addDetails(String title, String firstName, String lastName, String day, String month,
+                           String year, String maritalStatus, String occupation){
         aboutYouInteraction.selectTitle(title);
         aboutYouInteraction.enterFirstName(firstName);
         aboutYouInteraction.enterLastName(lastName);
@@ -25,9 +25,21 @@ private AboutYouAndOtherResidentsInteraction aboutYouAndOtherResidentsInteractio
         aboutYouInteraction.selectMaritalStatus(maritalStatus);
         aboutYouInteraction.enterOccupation(occupation);
         aboutYouInteraction.clickOnAnotherOccupationNoButton();
+
+    }
+
+    public void addPhoneNumberAndEmailAddress(String phone, String email){
+        aboutYouInteraction.enterMainPhoneNumber(phone);
         aboutYouInteraction.enterMainPhoneNumber(phone);
         aboutYouInteraction.enterEmailAddress(email);
         aboutYouAndOtherResidentsInteraction.clickBankruptcyNoButton();
     }
 
+    public void bankruptcyNoButton(){
+        aboutYouAndOtherResidentsInteraction.clickBankruptcyNoButton();
+    }
+
+    public String aboutYouText(){
+        return aboutYouInteraction.aboutYouText();
+    }
 }

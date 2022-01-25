@@ -5,27 +5,18 @@
       <![CDATA[Test starts running in google chrome browser.]]>
     </line>
     <line>
-      <![CDATA[Driver closed]]>
-    </line>
-    <line>
       <![CDATA[Test starts running in firefox browser.]]>
-    </line>
-    <line>
-      <![CDATA[Driver closed]]>
     </line>
     <line>
       <![CDATA[Test starts running in microsoft edge.]]>
     </line>
-    <line>
-      <![CDATA[Driver closed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-01-25T10:41:09 GMT" name="Home Insurance" finished-at="2022-01-25T10:41:37 GMT" duration-ms="28391">
+  <suite started-at="2022-01-25T13:53:56 GMT" name="Home Insurance" finished-at="2022-01-25T13:54:24 GMT" duration-ms="28466">
     <groups>
     </groups>
-    <test started-at="2022-01-25T10:41:09 GMT" name="Home insurance enquiry form running on chrome browser" finished-at="2022-01-25T10:41:19 GMT" duration-ms="9915">
+    <test started-at="2022-01-25T13:53:56 GMT" name="Home insurance enquiry form running on chrome browser" finished-at="2022-01-25T13:54:06 GMT" duration-ms="10705">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@448ff1a8]" started-at="2022-01-25T10:41:09 GMT" name="setUp" finished-at="2022-01-25T10:41:16 GMT" duration-ms="7011" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@77e9807f]" started-at="2022-01-25T13:53:56 GMT" name="setUp" finished-at="2022-01-25T13:54:02 GMT" duration-ms="6915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,34 +35,72 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillForm(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@448ff1a8]" started-at="2022-01-25T10:41:16 GMT" name="fillForm" finished-at="2022-01-25T10:41:19 GMT" duration-ms="2694" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@77e9807f]" started-at="2022-01-25T13:54:02 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:06 GMT" duration-ms="3767" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[doni]]>
+                <![CDATA[Dr]]>
               </value>
             </param>
             <param index="1">
               <value>
+                <![CDATA[Doni]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
                 <![CDATA[Jonah]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[October]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Married]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Software Engineer]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[07949409678]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[doni.jonah202@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[42 Marlborough Buildings Hatfield Road St. Albans AL1 3RW]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillForm -->
-        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@448ff1a8]" started-at="2022-01-25T10:41:19 GMT" name="quitDrver" finished-at="2022-01-25T10:41:19 GMT" duration-ms="186" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Driver closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- quitDrver -->
+        </test-method> <!-- fillHomeInsuranceEnquiryForm -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running on chrome browser -->
-    <test started-at="2022-01-25T10:41:19 GMT" name="Home insurance enquiry form running on firefox browser" finished-at="2022-01-25T10:41:29 GMT" duration-ms="10715">
+    <test started-at="2022-01-25T13:54:06 GMT" name="Home insurance enquiry form running on firefox browser" finished-at="2022-01-25T13:54:17 GMT" duration-ms="10721">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2890c451]" started-at="2022-01-25T10:41:19 GMT" name="setUp" finished-at="2022-01-25T10:41:26 GMT" duration-ms="7413" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2145433b]" started-at="2022-01-25T13:54:06 GMT" name="setUp" finished-at="2022-01-25T13:54:14 GMT" duration-ms="7256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,34 +119,72 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillForm(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2890c451]" started-at="2022-01-25T10:41:26 GMT" name="fillForm" finished-at="2022-01-25T10:41:29 GMT" duration-ms="2697" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2145433b]" started-at="2022-01-25T13:54:14 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:17 GMT" duration-ms="3464" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[doni]]>
+                <![CDATA[Mr]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jonah]]>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Morgan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Project Manager]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[07949409678]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[peter.morgan909@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[18 Cleveland Road Bournemouth BH1 4QD]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillForm -->
-        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2890c451]" started-at="2022-01-25T10:41:29 GMT" name="quitDrver" finished-at="2022-01-25T10:41:29 GMT" duration-ms="602" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Driver closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- quitDrver -->
+        </test-method> <!-- fillHomeInsuranceEnquiryForm -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running on firefox browser -->
-    <test started-at="2022-01-25T10:41:29 GMT" name="Home insurance enquiry form running microsoft edge browser" finished-at="2022-01-25T10:41:37 GMT" duration-ms="7698">
+    <test started-at="2022-01-25T13:54:17 GMT" name="Home insurance enquiry form running microsoft edge browser" finished-at="2022-01-25T13:54:24 GMT" duration-ms="6988">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@123f1134]" started-at="2022-01-25T10:41:29 GMT" name="setUp" finished-at="2022-01-25T10:41:35 GMT" duration-ms="5195" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@482cd91f]" started-at="2022-01-25T13:54:17 GMT" name="setUp" finished-at="2022-01-25T13:54:22 GMT" duration-ms="4571" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,29 +203,67 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillForm(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@123f1134]" started-at="2022-01-25T10:41:35 GMT" name="fillForm" finished-at="2022-01-25T10:41:37 GMT" duration-ms="2322" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@482cd91f]" started-at="2022-01-25T13:54:22 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:24 GMT" duration-ms="2416" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[doni]]>
+                <![CDATA[Miss]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Jonah]]>
+                <![CDATA[Jon]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Francis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[February]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1970]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Divorced]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Property Developer]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[07949409678]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jon.francis709@mailinator.com]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[16 Cleveland Road Bradford BD9 4PB]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillForm -->
-        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@123f1134]" started-at="2022-01-25T10:41:37 GMT" name="quitDrver" finished-at="2022-01-25T10:41:37 GMT" duration-ms="179" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Driver closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- quitDrver -->
+        </test-method> <!-- fillHomeInsuranceEnquiryForm -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running microsoft edge browser -->
   </suite> <!-- Home Insurance -->

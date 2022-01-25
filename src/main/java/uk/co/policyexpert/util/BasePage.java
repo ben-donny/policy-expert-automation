@@ -1,4 +1,4 @@
-package uk.co.policyexpert;
+package uk.co.policyexpert.util;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +19,8 @@ public class BasePage {
         switch (browserType){
             case "chrome":
                 log("Test starts running in google chrome browser.");
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") + "/git/policy-expert-project/chromedriver");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.home") +
+                        "/git/policy-expert-project/chromedriver");
                 driver = new ChromeDriver();
                 driver.manage().window().maximize();
                 driver.get(url);
@@ -27,7 +28,8 @@ public class BasePage {
 
             case "firefox":
                 log("Test starts running in firefox browser.");
-                System.setProperty("webdriver.gecko.driver",System.getProperty("user.home") + "/git/policy-expert-project/geckodriver");
+                System.setProperty("webdriver.gecko.driver",System.getProperty("user.home") +
+                        "/git/policy-expert-project/geckodriver");
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
                 driver.get(url);
@@ -35,7 +37,8 @@ public class BasePage {
 
             case "edge":
                 log("Test starts running in microsoft edge.");
-                System.setProperty("webdriver.edge.driver",System.getProperty("user.home") + "/git/policy-expert-project/msedgedriver");
+                System.setProperty("webdriver.edge.driver",System.getProperty("user.home") +
+                        "/git/policy-expert-project/msedgedriver");
                 driver = new EdgeDriver();
                 driver.manage().window().maximize();
                 driver.get(url);

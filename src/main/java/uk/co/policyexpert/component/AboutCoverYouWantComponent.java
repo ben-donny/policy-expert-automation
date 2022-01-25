@@ -3,7 +3,7 @@ package uk.co.policyexpert.component;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import uk.co.policyexpert.BasePage;
+import uk.co.policyexpert.util.BasePage;
 
 public class AboutCoverYouWantComponent extends BasePage {
     public AboutCoverYouWantComponent() {

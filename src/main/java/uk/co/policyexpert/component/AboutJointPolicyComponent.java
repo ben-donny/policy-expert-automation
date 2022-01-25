@@ -3,7 +3,7 @@ package uk.co.policyexpert.component;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import uk.co.policyexpert.BasePage;
+import uk.co.policyexpert.util.BasePage;
 
 public class AboutJointPolicyComponent extends BasePage {
     public AboutJointPolicyComponent() {
@@ -11,16 +11,16 @@ public class AboutJointPolicyComponent extends BasePage {
     }
 
     @FindBy(xpath="//div[@class='row']/div[1]/div/div[1]/div/div[6]/div[@class='panel-body']/div//div[@class='btn-group']/button[1]")
-    public WebElement aboutJointPolicyholdersYesButton;
+    public WebElement jointPolicyholdersYesButton;
 
     @FindBy(xpath="//div[@class='row']/div[1]/div/div[1]/div/div[6]/div[@class='panel-body']/div//div[@class='btn-group']/button[2]")
-    public WebElement   aboutJointPolicyholdersNoButton;
+    public WebElement jointPolicyholdersNoButton;
 
-    public WebElement getAboutJointPolicyholdersYesButton() {
-        return aboutJointPolicyholdersYesButton;
+    public WebElement getJointPolicyholdersYesButton() {
+        return jointPolicyholdersYesButton;
     }
 
-    public WebElement getAboutJointPolicyholdersNoButton() {
-        return aboutJointPolicyholdersNoButton;
+    public WebElement getJointPolicyholdersNoButton() {
+        return jointPolicyholdersNoButton;
     }
 }
