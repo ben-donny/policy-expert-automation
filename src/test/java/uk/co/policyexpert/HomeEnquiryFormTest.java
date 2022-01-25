@@ -45,7 +45,7 @@ public class HomeEnquiryFormTest extends BasePage {
 
     }
 
-    public void verifyAboutYouText(String expectedText){
+    private void verifyAboutYouText(String expectedText){
         String  actualText = aboutYouSteps.aboutYouText();
         assertThat(actualText, equalTo(expectedText));
     }

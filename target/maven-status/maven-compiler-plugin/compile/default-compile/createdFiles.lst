@@ -1,7 +1,7 @@
 uk/co/policyexpert/interaction/AboutSafetyAndSecurityInteraction.class
 uk/co/policyexpert/component/AboutSafetyAndSecurityComponent.class
 uk/co/policyexpert/steps/AboutInsuranceHistorySteps.class
-uk/co/policyexpert/steps/TItle.class
+uk/co/policyexpert/enums/MaritalStatus.class
 uk/co/policyexpert/steps/AboutYouSteps.class
 uk/co/policyexpert/interaction/AboutYourPropertyInteraction.class
 uk/co/policyexpert/component/AboutYouComponent.class
@@ -17,7 +17,7 @@ uk/co/policyexpert/interaction/AboutCoverYouWantInteraction.class
 uk/co/policyexpert/util/BasePage.class
 uk/co/policyexpert/component/AboutCoverYouWantComponent.class
 uk/co/policyexpert/interaction/AboutInsuranceHistoryInteraction.class
-uk/co/policyexpert/steps/MaritalStatus.class
+uk/co/policyexpert/enums/TItle.class
 uk/co/policyexpert/steps/QuestionsAboutYourPropertySteps.class
 uk/co/policyexpert/steps/AboutYouAndOtherResidentsSteps.class
 uk/co/policyexpert/interaction/AboutYouInteraction.class

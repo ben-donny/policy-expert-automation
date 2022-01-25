@@ -5,18 +5,27 @@
       <![CDATA[Test starts running in google chrome browser.]]>
     </line>
     <line>
+      <![CDATA[Driver closed]]>
+    </line>
+    <line>
       <![CDATA[Test starts running in firefox browser.]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed]]>
     </line>
     <line>
       <![CDATA[Test starts running in microsoft edge.]]>
     </line>
+    <line>
+      <![CDATA[Driver closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-01-25T13:53:56 GMT" name="Home Insurance" finished-at="2022-01-25T13:54:24 GMT" duration-ms="28466">
+  <suite started-at="2022-01-25T16:30:10 GMT" name="Home Insurance" finished-at="2022-01-25T16:30:48 GMT" duration-ms="38459">
     <groups>
     </groups>
-    <test started-at="2022-01-25T13:53:56 GMT" name="Home insurance enquiry form running on chrome browser" finished-at="2022-01-25T13:54:06 GMT" duration-ms="10705">
+    <test started-at="2022-01-25T16:30:10 GMT" name="Home insurance enquiry form running on chrome browser" finished-at="2022-01-25T16:30:26 GMT" duration-ms="16448">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@77e9807f]" started-at="2022-01-25T13:53:56 GMT" name="setUp" finished-at="2022-01-25T13:54:02 GMT" duration-ms="6915" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@1a38c59b]" started-at="2022-01-25T16:30:10 GMT" name="setUp" finished-at="2022-01-25T16:30:22 GMT" duration-ms="11656" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@77e9807f]" started-at="2022-01-25T13:54:02 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:06 GMT" duration-ms="3767" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@1a38c59b]" started-at="2022-01-25T16:30:22 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T16:30:26 GMT" duration-ms="4489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,11 +105,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillHomeInsuranceEnquiryForm -->
+        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@1a38c59b]" started-at="2022-01-25T16:30:26 GMT" name="quitDrver" finished-at="2022-01-25T16:30:26 GMT" duration-ms="272" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitDrver -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running on chrome browser -->
-    <test started-at="2022-01-25T13:54:06 GMT" name="Home insurance enquiry form running on firefox browser" finished-at="2022-01-25T13:54:17 GMT" duration-ms="10721">
+    <test started-at="2022-01-25T16:30:26 GMT" name="Home insurance enquiry form running on firefox browser" finished-at="2022-01-25T16:30:40 GMT" duration-ms="13096">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2145433b]" started-at="2022-01-25T13:54:06 GMT" name="setUp" finished-at="2022-01-25T13:54:14 GMT" duration-ms="7256" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@40e6dfe1]" started-at="2022-01-25T16:30:26 GMT" name="setUp" finished-at="2022-01-25T16:30:35 GMT" duration-ms="8787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +135,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@2145433b]" started-at="2022-01-25T13:54:14 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:17 GMT" duration-ms="3464" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@40e6dfe1]" started-at="2022-01-25T16:30:35 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T16:30:39 GMT" duration-ms="3707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,11 +196,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillHomeInsuranceEnquiryForm -->
+        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@40e6dfe1]" started-at="2022-01-25T16:30:39 GMT" name="quitDrver" finished-at="2022-01-25T16:30:40 GMT" duration-ms="600" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitDrver -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running on firefox browser -->
-    <test started-at="2022-01-25T13:54:17 GMT" name="Home insurance enquiry form running microsoft edge browser" finished-at="2022-01-25T13:54:24 GMT" duration-ms="6988">
+    <test started-at="2022-01-25T16:30:40 GMT" name="Home insurance enquiry form running microsoft edge browser" finished-at="2022-01-25T16:30:48 GMT" duration-ms="8832">
       <class name="uk.co.policyexpert.HomeEnquiryFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@482cd91f]" started-at="2022-01-25T13:54:17 GMT" name="setUp" finished-at="2022-01-25T13:54:22 GMT" duration-ms="4571" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@7d68ef40]" started-at="2022-01-25T16:30:40 GMT" name="setUp" finished-at="2022-01-25T16:30:46 GMT" duration-ms="6240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,7 +226,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@482cd91f]" started-at="2022-01-25T13:54:22 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T13:54:24 GMT" duration-ms="2416" status="PASS">
+        <test-method signature="fillHomeInsuranceEnquiryForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@7d68ef40]" started-at="2022-01-25T16:30:46 GMT" name="fillHomeInsuranceEnquiryForm" finished-at="2022-01-25T16:30:48 GMT" duration-ms="2453" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,6 +287,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillHomeInsuranceEnquiryForm -->
+        <test-method is-config="true" signature="quitDrver()[pri:0, instance:uk.co.policyexpert.HomeEnquiryFormTest@7d68ef40]" started-at="2022-01-25T16:30:48 GMT" name="quitDrver" finished-at="2022-01-25T16:30:48 GMT" duration-ms="139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitDrver -->
       </class> <!-- uk.co.policyexpert.HomeEnquiryFormTest -->
     </test> <!-- Home insurance enquiry form running microsoft edge browser -->
   </suite> <!-- Home Insurance -->

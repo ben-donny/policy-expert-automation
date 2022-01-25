@@ -2,6 +2,7 @@
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/component/AboutSafetyAndSecurityComponent.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/component/AboutInsuranceHistoryComponent.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/steps/AboutYourPropertySteps.java
+/Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/enums/TItle.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/util/BasePage.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/steps/AboutYouAndOtherResidentsSteps.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/interaction/AboutSafetyAndSecurityInteraction.java
@@ -21,5 +22,4 @@
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/interaction/QuestionsAboutYourPropertyInteraction.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/component/AboutJointPolicyComponent.java
 /Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/interaction/AboutJointPolicyInteraction.java
-/Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/steps/TItle.java
-/Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/steps/MaritalStatus.java
+/Users/benedict.idonije/git/policy-expert-project/src/main/java/uk/co/policyexpert/enums/MaritalStatus.java
