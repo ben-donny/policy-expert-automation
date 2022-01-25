@@ -50,8 +50,8 @@ public class HomeEnquiryFormTest extends BasePage {
         assertThat(actualText, equalTo(expectedText));
     }
 
-//    @AfterClass(alwaysRun = true)
-//    public void quitDrver(){
-//        closeDriver();
-//    }
+    @AfterClass(alwaysRun = true)
+    public void quitDrver(){
+        closeDriver();
+    }
 }
