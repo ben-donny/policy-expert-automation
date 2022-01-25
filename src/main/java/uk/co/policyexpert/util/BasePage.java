@@ -22,32 +22,33 @@ public class BasePage {
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
                 log(System.getProperty("user.dir"));
                 driver = new ChromeDriver();
-                driver.manage().window().maximize();
-                driver.get(url);
+                maximizeWindowAndGetUrl(url);
                 break;
 
             case "firefox":
                 log("Test starts running in firefox browser.");
                 System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "/geckodriver");
                 driver = new FirefoxDriver();
-                driver.manage().window().maximize();
-                driver.get(url);
+                maximizeWindowAndGetUrl(url);
                 break;
 
             case "edge":
                 log("Test starts running in microsoft edge.");
                 System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "/msedgedriver");
                 driver = new EdgeDriver();
-                driver.manage().window().maximize();
-                driver.get(url);
+                maximizeWindowAndGetUrl(url);
                 break;
             default:
                 log("browser : " + browserType + " is invalid, launching chrome as browser of choice..");
                 driver = new ChromeDriver();
-                driver.manage().window().maximize();
-                driver.get(url);
+                maximizeWindowAndGetUrl(url);
         }
 
+    }
+
+    public static void maximizeWindowAndGetUrl(String url){
+        driver.manage().window().maximize();
+        driver.get(url);
     }
 
     /*
